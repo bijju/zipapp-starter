@@ -1,0 +1,18 @@
+title = "Local program configuration file"
+
+[datasource]
+    [database]
+        [sqlite]
+            server = "test"
+            user = "test"
+            password =
+
+[logging]
+    level = "info"
+    [file]
+        enabled = false
+        filename = "logfilename-YYYYMMDD_HHMISS.log"
+        direcory = "C:\Temp"
+    [console]
+        enabled = true
+
